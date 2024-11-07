@@ -1,0 +1,30 @@
+.team-social{
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  
+}
+.team-social :not(:first-child){
+    margin-left: 10px;
+    }
+    .team-social__icon{
+      display: flex;
+      width: 44px;
+      height: 44px;
+      border: 0;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      fill: #AFB1B8;
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover{
+        background-color: $accent_color;
+      fill:#FFFF
+      }
+      &:focus{
+        background-color: $accent_color;
+        fill:#FFFF
+      }
+      
+    }
+   

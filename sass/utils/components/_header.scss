@@ -1,0 +1,33 @@
+body {
+    color: #212121;
+    font-family:$main_font, sans-serif;
+    letter-spacing: 0.03em;
+  }
+  ul {
+    list-style: none;
+  }
+  p {
+    color:#757575;
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container-header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+  
+  }
+  section{
+    padding-top: 94px;
+    padding-bottom: 94px; 
+
+  }
+

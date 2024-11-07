@@ -1,0 +1,27 @@
+.section-we_do{
+  padding: 0;
+    padding-bottom: 94px;
+    
+  }
+  .section-we_do h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .we_do_section ul:not(:last-child) {
+    margin-right: 30px;
+  }
+  .we_do_section {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+  }
+  .we_do_section img{
+    display: block;
+  }

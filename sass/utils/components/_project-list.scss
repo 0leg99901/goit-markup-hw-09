@@ -1,0 +1,104 @@
+.project-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
+
+
+
+.project-list__card :nth-child(3n) {
+  margin-right: 0px;
+}
+.project-list__card{
+  display:block;
+  background: #ffffff;
+  text-decoration: none;
+  position: relative;
+  transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+  &:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  
+}
+
+.project-list__card:hover,.project-list__card:focus{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+.project-list__project_inf{
+  padding: 20px 24px;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+}
+.project-list__project_inf p{
+  margin-top: 4px;
+}
+.project-list__project_inf h2 p{
+  padding: 0;
+  margin: 0;
+}
+.project-list__card_img{
+  position: relative;
+  max-height: 294px;
+  overflow: hidden;
+  transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project-list__card_img:hover .project-list__card_img_info,
+.project-list__card_img:focus .project-list__card_img_info:focus {
+  transform: translateY(0%);
+}
+.project-list__card:hover .project-list__card_img_info,
+.project-list__card:focus .project-list__card_img_info:focus {
+  transform: translateY(0%);
+}
+.project-list__card_img_info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position: absolute;
+  width: 370px;
+  background: rgba(33, 150, 243, 0.9);
+  top: 0;
+  bottom: 0;
+  transform: translateY(100%);
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.project-list__card_img_info:hover, .project-list__card_img_info:focus{
+  transform: translateY(0%);
+}
+.project-list__card_img_text{
+  padding: 0;
+  margin: 0;
+margin: 63px 24px;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.56;
+/* or 156% */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.project-list__work-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color:$text_color;
+  list-style: none;
+}
+.project-list__work-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: $additional-color;
+}

@@ -1,0 +1,43 @@
+.we_do_section li:not(:last-child) {
+    margin-right: 30px;
+  }
+  .we_do_section {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+  }
+  .we_do_section img{
+    display: block;
+  }
+
+   
+  .we_do_section__item{
+    position:relative;
+  
+  }
+  .we_do_section__content{
+    position:relative;
+    bottom: 19%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 370px;
+    min-height:70px;
+    background: rgba(47,48,58,0.8);
+  }
+  
+  .we_do_section__info{
+    margin: 0;
+    width: fit-content;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffff;
+  
+  }

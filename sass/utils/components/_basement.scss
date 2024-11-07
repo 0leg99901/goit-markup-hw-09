@@ -1,0 +1,170 @@
+.basement {
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #FFFF;
+  }
+  .footer-container{
+    display: flex;
+    align-items: baseline;
+    margin-left: auto;
+    margin-right: auto;
+  font-size: 14px;
+  line-height: 24px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+  }
+  .basement a {
+    font-family:$additionnal_font, sans-serif;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
+  .basement address{
+    margin-top: 20px;
+    font-style: normal;
+  }
+  .basement-inf {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    margin-top: 9px;
+  }
+    
+  .basement-inf a {
+    color: #ffffff99;
+    font-family: $main_font, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
+  .basement-inf li:not(:first-child) {
+    margin-top: 9px;
+  }
+  .footer-join{
+    align-items: center;
+    width: 225px;
+    margin-left: 70px;
+  }
+  
+  .footer-join p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+  .join li:not(:first-child){
+    margin-left: 10px;
+    }
+  .join-icon{
+    background: rgba(255, 255, 255, 0.1);
+    fill:#FFFFFF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .join{
+    display: flex;
+   
+  }
+  .join-icon{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    &:focus{
+      background-color:$accent_color;
+    }
+  &:hover{
+    
+    background-color:$accent_color;
+  }
+  }
+  
+  .footer-email_input{
+    padding: 0;
+    margin: 0;
+    margin-left:  92px;
+    justify-content: right;
+  }
+  .footer-email_input p{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: $main_font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+  .email_input{
+    display:inline;
+    padding: 0;
+    margin: 0;
+  width: 358px;
+  height: 50px;
+   background: #2F303A;;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus{
+    outline: none;
+    border: 1px solid rgba(240,240,240,0.8);
+  }
+  &:hover{
+  
+    outline: none;
+    border: 1px solid rgba(240,240,240,0.8);
+}
+  }
+  
+  .footer-email_button{
+    padding: 0;
+  margin: 0;
+  width: 200px;
+  height: 50px;
+  background: $accent_color;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: 12px;
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.88;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  display: inline-flex;
+  justify-content: center;
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus{
+    background-color: #188CE8;
+  }
+  &:hover{
+    background-color: #188CE8;
+  
+}
+  }
+  .footer-email_icon{
+  margin-left: 10px;
+  }
